@@ -8,7 +8,6 @@ class Array
    def make_list
     input = self
     array2 = []
-    array3 = []
     i = 1
       input.each do |x|
       array2 << "#{i}. #{x}"
