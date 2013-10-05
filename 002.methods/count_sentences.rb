@@ -3,6 +3,7 @@
 
 class String
   def count_sentences
-    # code goes here
+    array = self.gsub(/\s+/, "").scan(/\W/)
+  answer = array.length
   end
 end

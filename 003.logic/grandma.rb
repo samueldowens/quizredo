@@ -8,3 +8,17 @@
 # and yells back
 
 # NO, NOT SINCE 1938!
+
+class Grandma
+
+  def speak_to(words)
+    output = []
+    output = words.scan(/[a-z]/)
+    if output.length > 0
+      output = "HUH?!  SPEAK UP, SONNY!"
+    else 
+      output = "NO, NOT SINCE 1938!"
+    end
+  end
+
+end
